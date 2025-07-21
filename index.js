@@ -1,6 +1,9 @@
-const strings = {};
+const newString = "";
 
 function dashToCamel(phrase) {
-for (let i = 1; i <= strings.length; i++)
-    if (phrase)
+for (let i = 1; i <= phrase.length; i++)
+    if () {
+        let words = phrase.split("-");
+        
+    }
 }
