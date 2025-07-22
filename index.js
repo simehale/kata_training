@@ -1,9 +1,10 @@
 const newString = "";
 
-function dashToCamel(phrase) {
-for (let i = 1; i <= phrase.length; i++)
-    if () {
-        let words = phrase.split("-");
-        
+function dashToCamel(phrase) { 
+let words = phrase.split("-");      
+words.forEach(phrase => {
+    if (phrase.includes("-")) {
+            
     }
+})
 }
