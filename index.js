@@ -1,4 +1,4 @@
-
+console.log("hi");
 function dashToCamel(phrase) { 
 let words = phrase.split("-");      
 words.forEach((word, index) => {
@@ -8,4 +8,6 @@ words.forEach((word, index) => {
       const newstring = word   
     });
     words.join(word)
-}
+};
+
+dashToCamel("the-stealth-warrior");
