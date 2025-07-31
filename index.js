@@ -3,11 +3,12 @@ function dashToCamel(phrase) {
 let words = phrase.split("-");      
 words.forEach((word, index) => {
     if (index > 0) {
-        toUpperCase(word[0]);
-    }
-      const newstring = word   
+        const newString = word.charAt(0).toUpperCase() + word.slice(1);
+        words[index] = newString;
+      }
+      
     });
-    words.join(word)
+   return words.join("");  
 };
 
-dashToCamel("the-stealth-warrior");
+console.log(dashToCamel("the-stealth-warrior"));
