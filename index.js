@@ -1,4 +1,4 @@
-console.log("hi");
+console.log("challenge #1");
 function dashToCamel(phrase) { 
 let words = phrase.split("-");      
 words.forEach((word, index) => {
@@ -12,3 +12,4 @@ words.forEach((word, index) => {
 };
 
 console.log(dashToCamel("the-stealth-warrior"));
+
