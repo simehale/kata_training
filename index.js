@@ -18,10 +18,11 @@ console.log("challenge #2");
 function reverseWords(string) {
  let words = string.split(" ");
  words.forEach((word, index) => {
- let char = word.split();
-  char.reverse() + char.join();
-});
-return words();
+   const char = word.split() + word.reverse();
+   word[index] = char;
+   return word.join("");
+  });
+return words.join(" ");
 }
 
 console.log(reverseWords("the stealth warrior"))
