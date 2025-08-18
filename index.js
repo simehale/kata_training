@@ -18,9 +18,9 @@ console.log("challenge #2");
 function reverseWords(string) {
  let words = string.split(" ");
  words.forEach((word, index) => {
-   const char = word.split() + word.reverse();
-   word[index] = char;
-   return word.join("");
+   const char = word.split("");
+   char.reverse();
+   return char.join("");
   });
 return words.join(" ");
 }
@@ -28,3 +28,6 @@ return words.join(" ");
 console.log(reverseWords("the stealth warrior"))
 //join each character array with join()
 //join each word with join(" "). result: eht htlaets roirraw
+
+
+
