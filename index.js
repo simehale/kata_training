@@ -19,8 +19,8 @@ function reverseWords(string) {
  let words = string.split(" ");
  words.forEach((word, index) => {
    const char = word.split("");
-   char.reverse();
-   return char.join("");
+   const newOrder = char.reverse().join("");
+   words[index] = newOrder;
   });
 return words.join(" ");
 }
