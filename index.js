@@ -26,8 +26,17 @@ return words.join(" ");
 }
 
 console.log(reverseWords("the stealth warrior"))
-//join each character array with join()
-//join each word with join(" "). result: eht htlaets roirraw
 
 
+console.log("challenge #3");
+function removeOccurrence(obj, array) {
+  let list
+}
 
+
+//Examples assert.deepEqual(arrayDiff([1,2], [1]), [2], "a was [1,2], b was [1]");
+    //assert.deepEqual(arrayDiff([1,2,2], [1]), [2,2], "a was [1,2,2], b was [1]");
+    //assert.deepEqual(arrayDiff([1,2,2], [2]), [1], "a was [1,2,2], b was [2]");
+    //assert.deepEqual(arrayDiff([1,2,2], []), [1,2,2], "a was [1,2,2], b was []");
+    //assert.deepEqual(arrayDiff([], [1,2]), [], "a was [], b was [1,2]");
+    //assert.deepEqual(arrayDiff([1,2,3], [1,2]), [3], "a was [1,2,3], b was [1,2]")
