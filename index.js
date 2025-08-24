@@ -29,8 +29,9 @@ console.log(reverseWords("the stealth warrior"))
 
 
 console.log("challenge #3");
-function removeOccurrence(obj, array) {
-  let list
+function removeOccurrence(a, b) {
+  let newArray = [];
+  let result = a.filter(a !== b)
 }
 
 
