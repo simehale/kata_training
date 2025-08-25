@@ -30,9 +30,13 @@ console.log(reverseWords("the stealth warrior"))
 
 console.log("challenge #3");
 function removeOccurrence(a, b) {
-  let newArray = [];
-  let result = a.filter(a !== b)
-}
+  let newArray = a.filter((element) => element !== b);
+  return newArray
+  }
+
+  
+  //need arrow function
+
 
 
 //Examples assert.deepEqual(arrayDiff([1,2], [1]), [2], "a was [1,2], b was [1]");
