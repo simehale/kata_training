@@ -36,8 +36,8 @@ function removeOccurrence(a, b) {
   return newArray;
   };
 
-  removeOccurrence([1,2], [1]);
-  console.log(`arrayDiff(${a}, ${b}), ${newArray}, "a was ${a}, b was ${b}"`);
+  console.log(removeOccurrence([1,2], [1]));
+  //console.log(`arrayDiff(${a}, ${b}), ${newArray}, "a was ${a}, b was ${b}"`);
 
   
   //need arrow function
